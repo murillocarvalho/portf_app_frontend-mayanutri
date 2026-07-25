@@ -1,0 +1,12 @@
+{
+  "name": "site-nutri",
+  "version": "1.0.0",
+  "description": "Site institucional para nutricionista",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.21.3"
+  }
+}
