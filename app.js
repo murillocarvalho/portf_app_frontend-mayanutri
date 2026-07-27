@@ -22,7 +22,7 @@ app.get('/perguntas', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'perguntas.html'));
 });
 
-app.get('/health', (req, res) => {
+app.post('/health', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'health.html'));
 });
 
