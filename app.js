@@ -22,6 +22,10 @@ app.get('/perguntas', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'perguntas.html'));
 });
 
+app.get('/health', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'health.html'));
+});
+
 app.listen(port, () => {
   console.log(`Site rodando em http://localhost:${port}`);
 });
